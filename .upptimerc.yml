@@ -10,6 +10,9 @@ sites:
   - name: Fanfarenzug Nusplingen
     url: https://fanfarenzug-nusplingen.de
     maxResponseTime: 5000
+  - name: TSV Nusplingen
+    url: https://tsv-nusplingen.de
+    maxResponseTime: 5000
 
 # Wer bei Ausfällen zugewiesen (und damit benachrichtigt) wird
 assignees:
