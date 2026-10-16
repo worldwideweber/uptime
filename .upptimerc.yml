@@ -1,31 +1,44 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime – Uptime-Monitoring über GitHub Actions (https://upptime.js.org)
+# Öffentliches Repo worldwideweber/uptime: Actions-Minuten und Status-Seite (GitHub Pages) sind dann kostenlos.
+# Nur öffentliche Live-Domains eintragen – keine Staging-URLs, keine Zugangsdaten.
+# Ausfall → Issue in diesem Repo (Benachrichtigung über GitHub), Wiederherstellung → Issue wird geschlossen.
+owner: worldwideweber
+repo: uptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # Neues Projekt = ein Eintrag. Optional: expectedStatusCodes, maxResponseTime (ms), check: "ssl" für Zertifikat
+  - name: Fanfarenzug Nusplingen
+    url: https://fanfarenzug-nusplingen.de
+    maxResponseTime: 5000
+
+# Wer bei Ausfällen zugewiesen (und damit benachrichtigt) wird
+assignees:
+  - worldwideweber
+
+workflowSchedule:
+  uptime: '*/5 * * * *'      # GitHub startet geplante Läufe oft verzögert (realistisch 5–15 min)
+  responseTime: '0 23 * * *'
+  graphs: '0 0 * * *'
+  summary: '0 0 * * *'
+  staticSite: '0 1 * * *'
+  updateTemplate: '0 0 * * *'
+  updates: '0 3 * * *'
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Status-Seite unter https://worldwideweber.github.io/uptime/
+  baseUrl: /uptime
+  name: Status
+  introTitle: Status der Websites
+  introMessage: Erreichbarkeit und Antwortzeiten der von world-wide-weber betreuten Websites.
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: /uptime/
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Aktuelle Störungen
+  allSystemsOperational: Alle Websites erreichbar
+  incidentReport: Störung
+  pastIncidents: Vergangene Störungen
+  up: erreichbar
+  down: nicht erreichbar
+  degraded: langsam
