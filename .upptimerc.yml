@@ -13,6 +13,9 @@ sites:
   - name: TSV Nusplingen
     url: https://tsv-nusplingen.de
     maxResponseTime: 5000
+  - name: ACW
+    url: https://www.acweber.eu
+    maxResponseTime: 5000
 
 # Wer bei Ausfällen zugewiesen (und damit benachrichtigt) wird
 assignees:
