@@ -4,18 +4,20 @@
     "url": "https://fanfarenzug-nusplingen.de",
     "icon": "https://icons.duckduckgo.com/ip3/fanfarenzug-nusplingen.de.ico",
     "slug": "fanfarenzug-nusplingen",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2026,
-    "timeDay": 1586,
-    "timeWeek": 2026,
-    "timeMonth": 2026,
-    "timeYear": 2026,
-    "dailyMinutesDown": {}
+    "time": 1859,
+    "timeDay": 1054,
+    "timeWeek": 1859,
+    "timeMonth": 1859,
+    "timeYear": 1859,
+    "dailyMinutesDown": {
+      "2026-10-21": 0
+    }
   },
   {
     "name": "TSV Nusplingen",
