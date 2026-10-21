@@ -4,19 +4,19 @@
     "url": "https://fanfarenzug-nusplingen.de",
     "icon": "https://icons.duckduckgo.com/ip3/fanfarenzug-nusplingen.de.ico",
     "slug": "fanfarenzug-nusplingen",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1859,
-    "timeDay": 1054,
-    "timeWeek": 1859,
-    "timeMonth": 1859,
-    "timeYear": 1859,
+    "status": "up",
+    "uptime": "97.34%",
+    "uptimeDay": "85.22%",
+    "uptimeWeek": "97.34%",
+    "uptimeMonth": "97.34%",
+    "uptimeYear": "97.34%",
+    "time": 1943,
+    "timeDay": 1601,
+    "timeWeek": 1943,
+    "timeMonth": 1943,
+    "timeYear": 1943,
     "dailyMinutesDown": {
-      "2026-10-21": 0
+      "2026-10-21": 213
     }
   },
   {
