@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/fanfarenzug-nusplingen.de.ico",
     "slug": "fanfarenzug-nusplingen",
     "status": "up",
-    "uptime": "98.64%",
+    "uptime": "98.67%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "97.89%",
-    "uptimeMonth": "98.64%",
-    "uptimeYear": "98.64%",
+    "uptimeMonth": "98.67%",
+    "uptimeYear": "98.67%",
     "time": 1845,
     "timeDay": 1432,
     "timeWeek": 1655,
@@ -24,9 +24,9 @@
     "url": "https://tsv-nusplingen.de",
     "icon": "https://icons.duckduckgo.com/ip3/tsv-nusplingen.de.ico",
     "slug": "tsv-nusplingen",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -35,7 +35,9 @@
     "timeWeek": 887,
     "timeMonth": 924,
     "timeYear": 924,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-27": 0
+    }
   },
   {
     "name": "ACW",
