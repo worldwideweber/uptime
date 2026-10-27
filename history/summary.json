@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/fanfarenzug-nusplingen.de.ico",
     "slug": "fanfarenzug-nusplingen",
     "status": "up",
-    "uptime": "98.50%",
+    "uptime": "98.64%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "97.89%",
-    "uptimeMonth": "98.50%",
-    "uptimeYear": "98.50%",
-    "time": 1872,
-    "timeDay": 1291,
-    "timeWeek": 1647,
-    "timeMonth": 1872,
-    "timeYear": 1872,
+    "uptimeMonth": "98.64%",
+    "uptimeYear": "98.64%",
+    "time": 1845,
+    "timeDay": 1432,
+    "timeWeek": 1655,
+    "timeMonth": 1845,
+    "timeYear": 1845,
     "dailyMinutesDown": {
       "2026-10-21": 213
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 928,
-    "timeDay": 848,
-    "timeWeek": 888,
-    "timeMonth": 928,
-    "timeYear": 928,
+    "time": 924,
+    "timeDay": 876,
+    "timeWeek": 887,
+    "timeMonth": 924,
+    "timeYear": 924,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 981,
-    "timeDay": 995,
-    "timeWeek": 991,
-    "timeMonth": 981,
-    "timeYear": 981,
+    "time": 968,
+    "timeDay": 859,
+    "timeWeek": 924,
+    "timeMonth": 968,
+    "timeYear": 968,
     "dailyMinutesDown": {}
   }
 ]
